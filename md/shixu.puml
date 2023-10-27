@@ -1,7 +1,4 @@
-```plantuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
-```
+@startuml
+Bob -[#red]> Alice : hello 
+Alice -[#0000FF]->Bob : ok 
+@enduml
